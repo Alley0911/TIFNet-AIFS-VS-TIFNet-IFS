@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tifnet-aifs-ifs-companion"
+version = "1.0.0"
+description = "IFSMatch2AIFS spectral matching and TIFNet ONNX inference examples."
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "onnxruntime", "pandas", "matplotlib", "jupyter"]
+
+[project.scripts]
+ifsmatch2aifs = "tifnet.ifsmatch2aifs.runtime:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

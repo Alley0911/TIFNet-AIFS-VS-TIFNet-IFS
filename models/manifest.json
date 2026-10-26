@@ -1,0 +1,14 @@
+{
+  "aifs": {
+    "filename": "tifnet_aifs.onnx",
+    "size_bytes": 564792646,
+    "sha256": "8ef643e5d589df942df13043e3849977230742eb5f9a9e97c2fb1ad7e062ca37",
+    "url": "https://github.com/Alley0911/TIFNet-AIFS-VS-TIFNet-IFS/releases/download/v1.0.0/tifnet_aifs.onnx"
+  },
+  "ifs": {
+    "filename": "tifnet_ifs.onnx",
+    "size_bytes": 564792646,
+    "sha256": "3a566602fceb1795482105b3c055f32757702e7f48f2a27eb1ad1f584f29cf5d",
+    "url": "https://github.com/Alley0911/TIFNet-AIFS-VS-TIFNet-IFS/releases/download/v1.0.0/tifnet_ifs.onnx"
+  }
+}

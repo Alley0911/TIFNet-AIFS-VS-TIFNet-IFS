@@ -1,0 +1,117 @@
+{
+  "tropical_cyclone_id": "202424",
+  "forecast_initialization_time_utc": "2024-11-14T12:00:00Z",
+  "historical_time_offsets_hours": [
+    -24,
+    -18,
+    -12,
+    -6,
+    0
+  ],
+  "forecast_lead_times_hours": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84,
+    90,
+    96,
+    102,
+    108,
+    114,
+    120
+  ],
+  "surface_variables": [
+    "u10",
+    "v10",
+    "t2m",
+    "slp",
+    "skt",
+    "z",
+    "lsm",
+    "sdor",
+    "slor"
+  ],
+  "surface_units": [
+    "m s-1",
+    "m s-1",
+    "K",
+    "Pa",
+    "K",
+    "m2 s-2",
+    "1",
+    "m",
+    "1"
+  ],
+  "isobaric_variables": [
+    "u",
+    "v",
+    "tmp",
+    "sh",
+    "gp"
+  ],
+  "isobaric_units": [
+    "m s-1",
+    "m s-1",
+    "K",
+    "kg kg-1",
+    "m2 s-2"
+  ],
+  "pressure_levels_hpa": [
+    100,
+    200,
+    300,
+    500,
+    700,
+    850,
+    925
+  ],
+  "inputs": {
+    "encoder_surface": [
+      1,
+      9,
+      5,
+      72,
+      72
+    ],
+    "encoder_isobaric": [
+      1,
+      5,
+      5,
+      7,
+      72,
+      72
+    ],
+    "encoder_artificial": [
+      1,
+      5,
+      1
+    ],
+    "decoder_surface": [
+      1,
+      9,
+      21,
+      72,
+      72
+    ],
+    "decoder_isobaric": [
+      1,
+      5,
+      21,
+      7,
+      72,
+      72
+    ]
+  },
+  "normalized": false
+}
