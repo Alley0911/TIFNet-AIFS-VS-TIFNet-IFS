@@ -3,6 +3,8 @@
 
 This companion provides the IFSMatch2AIFS spectral matching source code, two trained TIFNet models in ONNX format, and a CPU inference notebook. The AIFS-driven and IFS-driven models are used in the paper's case studies; source-specific fine-tuning updated their final prediction heads.
 
+The forecast data, summary statistics, and analysis scripts for Figures 1–7 and A1 are available in the [Zenodo reproduction archive](https://doi.org/10.5281/zenodo.24522834).
+
 ## Run the example
 
 Use Python 3.10 or later in a fresh environment:
